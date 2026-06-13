@@ -1,0 +1,210 @@
+2026-06-12 23:00:35 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-12 23:00:58 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-12 23:00:58 [INFO] __main__: Database schemas generated successfully.
+2026-06-12 23:00:58 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.175.43:5000
+2026-06-12 23:00:58 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-06-12 23:00:58 [INFO] werkzeug:  * Restarting with stat
+2026-06-12 23:00:59 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-12 23:00:59 [INFO] __main__: Database schemas generated successfully.
+2026-06-12 23:00:59 [WARNING] werkzeug:  * Debugger is active!
+2026-06-12 23:00:59 [INFO] werkzeug:  * Debugger PIN: 138-982-252
+2026-06-12 23:03:54 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:03:54] "GET /register HTTP/1.1" 200 -
+2026-06-12 23:03:54 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:03:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-12 23:03:54 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:03:54] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-12 23:04:19 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:04:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-12 23:06:06 [INFO] services.auth_service: Successfully registered user: demo_user (demo@example.com)
+2026-06-12 23:06:06 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:06:06] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-06-12 23:06:06 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:06:06] "GET /dashboard HTTP/1.1" 200 -
+2026-06-12 23:06:06 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:06:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-12 23:06:06 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:06:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-12 23:09:51 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:09:51] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-12 23:10:08 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:10:08] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-12 23:10:31 [INFO] werkzeug: 127.0.0.1 - - [12/Jun/2026 23:10:31] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:15:47 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-13 17:15:47 [INFO] __main__: Database schemas generated successfully.
+2026-06-13 17:15:47 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.175.43:5000
+2026-06-13 17:15:47 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-06-13 17:15:48 [INFO] werkzeug:  * Restarting with stat
+2026-06-13 17:15:48 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-13 17:15:48 [INFO] __main__: Database schemas generated successfully.
+2026-06-13 17:15:48 [WARNING] werkzeug:  * Debugger is active!
+2026-06-13 17:15:48 [INFO] werkzeug:  * Debugger PIN: 138-982-252
+2026-06-13 17:17:11 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:17:11] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-13 17:17:11 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:17:11] "GET /login HTTP/1.1" 200 -
+2026-06-13 17:17:11 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:17:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-13 17:17:11 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:17:11] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-13 17:17:12 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:17:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-13 17:17:30 [WARNING] services.auth_service: Failed login attempt for credential: drishtikashyap28@gmail.com
+2026-06-13 17:17:30 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:17:30] "POST /login HTTP/1.1" 200 -
+2026-06-13 17:17:30 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:17:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:17:30 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:17:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:18:23 [WARNING] services.auth_service: Failed login attempt for credential: drishtikash2006@gmail.com
+2026-06-13 17:18:23 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:18:23] "POST /login HTTP/1.1" 200 -
+2026-06-13 17:18:23 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:18:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:18:23 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:18:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:18:26 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:18:26] "GET /register HTTP/1.1" 200 -
+2026-06-13 17:18:26 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:18:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:18:26 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:18:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:18:53 [INFO] services.auth_service: Successfully registered user: drishti_kashyap (drishtikashyap28@gmail.com)
+2026-06-13 17:18:53 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:18:53] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-06-13 17:18:54 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:18:54] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:18:54 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:18:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:18:54 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:18:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:19:12 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:19:12] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:19:14 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:19:14] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:19:18 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:19:18] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:30:05 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:05] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-13 17:30:05 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:05] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:30:05 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:30:05 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:30:17 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:17] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-13 17:30:17 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:17] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:30:17 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:30:17 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:30:52 [INFO] services.transaction_service: Created transaction: cafe (Entertainment) for User: 2
+2026-06-13 17:30:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:52] "[32mPOST /transactions HTTP/1.1[0m" 302 -
+2026-06-13 17:30:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:52] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:30:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:30:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:30:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:31:00 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:31:00] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:31:00 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:31:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:31:00 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:31:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:31:44 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:31:44] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:31:45 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:31:45] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:31:46 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:31:46] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:31:46 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:31:46] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:31:47 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:31:47] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:32:11 [INFO] services.transaction_service: Created transaction: ganjipura (Shopping) for User: 2
+2026-06-13 17:32:11 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:32:11] "[32mPOST /transactions HTTP/1.1[0m" 302 -
+2026-06-13 17:32:11 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:32:11] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:32:11 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:32:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:32:11 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:32:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:32:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:32:52] "GET /dashboard?search_query=ganjipura&category=All&start_date=&end_date= HTTP/1.1" 200 -
+2026-06-13 17:32:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:32:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:32:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:32:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:33:03 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:33:03] "GET /dashboard?search_query=ganjipura&category=All&start_date=&end_date= HTTP/1.1" 200 -
+2026-06-13 17:33:03 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:33:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:33:03 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:33:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:33:07 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:33:07] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:33:07 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:33:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:33:07 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:33:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:33:25 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:33:25] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:33:25 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:33:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:33:25 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:33:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:41:32 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-13 17:41:32 [INFO] __main__: Database schemas generated successfully.
+2026-06-13 17:41:32 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.175.43:5000
+2026-06-13 17:41:32 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-06-13 17:41:32 [INFO] werkzeug:  * Restarting with stat
+2026-06-13 17:41:33 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-13 17:41:33 [INFO] __main__: Database schemas generated successfully.
+2026-06-13 17:41:33 [WARNING] werkzeug:  * Debugger is active!
+2026-06-13 17:41:33 [INFO] werkzeug:  * Debugger PIN: 138-982-252
+2026-06-13 17:42:16 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:42:16] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-13 17:42:16 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:42:16] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:42:16 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:42:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:42:16 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:42:16] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-13 17:46:45 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-13 17:46:45 [INFO] __main__: Database schemas generated successfully.
+2026-06-13 17:46:45 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.175.43:5000
+2026-06-13 17:46:45 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-06-13 17:46:45 [INFO] werkzeug:  * Restarting with stat
+2026-06-13 17:46:46 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-13 17:46:46 [INFO] __main__: Database schemas generated successfully.
+2026-06-13 17:46:46 [WARNING] werkzeug:  * Debugger is active!
+2026-06-13 17:46:46 [INFO] werkzeug:  * Debugger PIN: 138-982-252
+2026-06-13 17:47:03 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-13 17:47:03 [INFO] __main__: Database schemas generated successfully.
+2026-06-13 17:47:03 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.175.43:5000
+2026-06-13 17:47:03 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-06-13 17:47:03 [INFO] werkzeug:  * Restarting with stat
+2026-06-13 17:47:03 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-13 17:47:03 [INFO] __main__: Database schemas generated successfully.
+2026-06-13 17:47:03 [WARNING] werkzeug:  * Debugger is active!
+2026-06-13 17:47:03 [INFO] werkzeug:  * Debugger PIN: 138-982-252
+2026-06-13 17:47:40 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:47:40] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-13 17:47:40 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:47:40] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:47:40 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:47:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:47:40 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:47:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 17:47:50 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:47:50] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:47:51 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:47:51] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:47:53 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:47:53] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 17:49:03 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:49:03] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-13 17:49:03 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:49:03] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 17:49:03 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:49:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 17:49:03 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 17:49:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 18:01:22 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-13 18:01:22 [INFO] __main__: Database schemas generated successfully.
+2026-06-13 18:01:22 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.175.43:5000
+2026-06-13 18:01:22 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-06-13 18:01:22 [INFO] werkzeug:  * Restarting with stat
+2026-06-13 18:01:22 [INFO] __main__: Initializing app factory in 'development' environment.
+2026-06-13 18:01:22 [INFO] __main__: Database schemas generated successfully.
+2026-06-13 18:01:22 [WARNING] werkzeug:  * Debugger is active!
+2026-06-13 18:01:22 [INFO] werkzeug:  * Debugger PIN: 138-982-252
+2026-06-13 18:03:09 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:09] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-13 18:03:09 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:09] "GET /login HTTP/1.1" 200 -
+2026-06-13 18:03:09 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-13 18:03:09 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:09] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-13 18:03:10 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-13 18:03:13 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:13] "GET /login HTTP/1.1" 200 -
+2026-06-13 18:03:13 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 18:03:13 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 18:03:50 [WARNING] services.auth_service: Failed login attempt for credential: drishtikash2006@gmail.com
+2026-06-13 18:03:50 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:50] "POST /login HTTP/1.1" 200 -
+2026-06-13 18:03:50 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 18:03:50 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 18:03:58 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:58] "GET /register HTTP/1.1" 200 -
+2026-06-13 18:03:58 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 18:03:58 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:03:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 18:04:07 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:04:07] "GET /register HTTP/1.1" 200 -
+2026-06-13 18:04:07 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:04:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 18:04:07 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:04:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 18:04:09 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:04:09] "GET /register HTTP/1.1" 200 -
+2026-06-13 18:04:09 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:04:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 18:04:09 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:04:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 18:04:56 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:04:56] "POST /register HTTP/1.1" 200 -
+2026-06-13 18:04:56 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:04:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 18:04:56 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:04:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 18:07:51 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:07:51] "GET /login HTTP/1.1" 200 -
+2026-06-13 18:07:51 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:07:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 18:07:51 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:07:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 18:07:53 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:07:53] "GET /register HTTP/1.1" 200 -
+2026-06-13 18:07:53 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:07:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 18:07:53 [INFO] werkzeug: 10.236.175.43 - - [13/Jun/2026 18:07:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-13 18:10:22 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:10:22] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 18:10:23 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:10:23] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 18:10:23 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:10:23] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 18:10:24 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:10:24] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 18:10:25 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:10:25] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 18:10:27 [INFO] services.transaction_service: Created transaction: internship (Salary / Income) for User: 2
+2026-06-13 18:10:27 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:10:27] "[32mPOST /transactions HTTP/1.1[0m" 302 -
+2026-06-13 18:10:27 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:10:27] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 18:10:27 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:10:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 18:10:27 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:10:27] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-13 18:10:59 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:10:59] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 18:11:13 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:11:13] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 18:11:16 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:11:16] "POST /api/transactions/detect HTTP/1.1" 200 -
+2026-06-13 18:11:52 [INFO] services.transaction_service: Deleted transaction: 1 for User: 2
+2026-06-13 18:11:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:11:52] "[32mPOST /transactions/1/delete HTTP/1.1[0m" 302 -
+2026-06-13 18:11:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:11:52] "GET /dashboard HTTP/1.1" 200 -
+2026-06-13 18:11:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:11:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-13 18:11:52 [INFO] werkzeug: 127.0.0.1 - - [13/Jun/2026 18:11:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -

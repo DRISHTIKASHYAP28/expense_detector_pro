@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Internal Server Error - Expense Tracker Pro{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="max-width: 550px; margin: 4rem auto; text-align: center; padding: 4rem 2rem;">
+    <h1 style="font-size: 6rem; font-weight: 800; color: var(--danger-color); line-height: 1;"><i class="fa-solid fa-triangle-exclamation"></i></h1>
+    <h2 style="margin-top: 1rem; margin-bottom: 1rem;">Internal Server Error</h2>
+    <p style="margin-bottom: 2.5rem; color: var(--text-muted);">An unexpected condition was encountered on the server. We've logged the issue and will look into it.</p>
+    
+    <a href="/" class="btn btn-secondary">
+        <i class="fa-solid fa-rotate"></i> Reload Page
+    </a>
+</div>
+{% endblock %}

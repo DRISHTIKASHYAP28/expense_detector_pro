@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Expense Tracker Pro{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Main Navbar -->
+        <header class="main-header">
+            <a href="/" style="text-decoration: none;">
+                <div class="logo">
+                    <i class="fa-solid fa-magnifying-glass-dollar"></i> Expense<span>Detector</span>
+                </div>
+            </a>
+            <nav class="nav-links">
+                {% if current_user.is_authenticated %}
+                    <span style="color: var(--text-muted); font-size: 0.9rem;">
+                        <i class="fa-regular fa-circle-user"></i> {{ current_user.username }}
+                    </span>
+                    <a href="{{ url_for('transaction.dashboard') }}" class="nav-link">
+                        <i class="fa-solid fa-wallet"></i> Dashboard
+                    </a>
+                    <a href="{{ url_for('auth.logout') }}" class="btn btn-secondary btn-sm">
+                        <i class="fa-solid fa-right-from-bracket"></i> Logout
+                    </a>
+                {% else %}
+                    <a href="{{ url_for('auth.login') }}" class="nav-link">Sign In</a>
+                    <a href="{{ url_for('auth.register') }}" class="btn btn-primary btn-sm">Get Started</a>
+                {% endif %}
+            </nav>
+        </header>
+
+        <!-- Alerts Section -->
+        <div class="alerts-container">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">
+                            <span><i class="fa-solid fa-circle-info"></i> {{ message }}</span>
+                            <button class="alert-close" onclick="this.parentElement.style.display='none'">&times;</button>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+
+        <!-- Render Child Views -->
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    <!-- Core Script -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>
