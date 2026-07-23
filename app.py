@@ -22,7 +22,7 @@ from routes.transaction_routes import transaction_bp
 from services.auth_service import AuthService
 from services.transaction_service import TransactionService
 from utils.exceptions import AppException
-
+from models.login_history import LoginHistory
 
 def create_app(config_name: str = None) -> Flask:
     """
