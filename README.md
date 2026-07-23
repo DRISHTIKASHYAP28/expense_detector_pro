@@ -1,4 +1,4 @@
-# 💰 Expense Detector Pro
+# 💰 Expense Detector System
 
 A Production-Ready Expense Management Web Application built with Flask, SQLAlchemy, Bootstrap, and Chart.js.
 Secure • Responsive • Layered Architecture • Analytics Dashboard
