@@ -4,7 +4,7 @@ A full-stack Expense Management web application built with **Flask**, **SQLAlche
 
 ## 🚀 Live Demo
 
-👉 YOUR_RENDER_LINK_HERE
+👉 https://expense-detector-pro.onrender.com
 
 ---
 
